@@ -1,12 +1,13 @@
-n = int(input("enter a number: "))
-num = n
-palindrome = 0 
-
-while num > 0:
-    rem = num%10
-    palindrome = palindrome*10 + rem
-    num //= 10
-if n == palindrome:
-    print(n, "is a palindrome")
+def isPalindrome(s):
+    rev = ''.join(reversed(s))
+    if (s == rev):
+        return True
+    return False
+ 
+s = str(input("Enter a string: "))
+ans = isPalindrome(s)
+ 
+if (ans):
+    print("Yes")
 else:
-    print(n, "is not a palindrome")
+    print("No")
