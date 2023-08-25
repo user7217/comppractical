@@ -3,16 +3,18 @@ pos = 0
 neg = 0
 odd = 0
 even = 0
-while num!=0:
-    num = int(input("Enter a number: "))
-    if num%2==0:
-        even+=1
+while True:
+    num = int(input("enter a number: "))
+    if num == 0:
+        break
+    if num > 0:
+        pos += 1
     else:
-        odd+=1
-    if num>0:
-        pos+=1
-    elif num<0:
-        neg+=1
+        neg += 1
+    if num%2 == 0:
+        even += 1
+    else:
+        odd += 1
 print("Number of even numbers: ",even)
 print("Number of odd numbers: ",odd)
 print("Number of positive numbers: ",pos)
