@@ -1,0 +1,17 @@
+{
+    "bus_routes" : [
+        {
+            "route_id" : 500,
+            "route_no" : "500A",
+            "start" : "Banshankri",
+            "destination" : "Hebbal"
+        },
+        {
+            "route_id": 500,
+            "route_no": "500B",
+            "start": "",
+            "destination": ""
+        }
+    ]
+}
+
