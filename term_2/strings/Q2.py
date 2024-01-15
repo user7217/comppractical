@@ -1,5 +1,5 @@
 def is_palindrome(word):
-    return word == word.join(reversed(word))
+    return word == "".join(reversed(word))
 
 def print_palindrome_words(input_string):
     words = input_string.split()
