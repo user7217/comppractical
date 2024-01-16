@@ -8,3 +8,4 @@ user_input = input("Enter a string: ")
 
 # Call the function to print words starting with a vowel
 print_words_starting_with_vowel(user_input)
+

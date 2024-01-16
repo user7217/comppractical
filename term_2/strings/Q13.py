@@ -6,4 +6,6 @@ if words:
     print(f"Longest word: {longest}, shortest word: {shortest}")
 else:
     print("No words entered.")
+
+
     

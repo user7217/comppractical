@@ -29,3 +29,4 @@ if result is None:
     print("Lists are not of the same size.")
 else:
     print(f"The resulting list with the sum of corresponding elements is: {result}")
+

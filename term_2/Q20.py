@@ -25,3 +25,4 @@ while True:
         print(f"The price for {query_product} is ${products[query_product]:.2f}")
     else:
         print(f"Product '{query_product}' does not exist.")
+

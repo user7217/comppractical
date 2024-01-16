@@ -8,3 +8,4 @@ print("Word frequency:", word_freq)
 word_and_count = word_freq.get("and", 0)
 word_is_count = word_freq.get("is", 0)
 print(f"Frequency of 'and': {word_and_count}, frequency of 'is': {word_is_count}")
+

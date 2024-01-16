@@ -10,3 +10,4 @@ user_input = input("Enter a string: ")
 print_alternate_words_starting_with_digit(user_input)
 
 #print("Alternate words starting with a digit:", ', '.join([word for i, word in enumerate(input("Enter a string: ").split()) if i % 2 == 0 and word[0].isdigit()]))
+

@@ -18,3 +18,4 @@ sum_of_list, average_of_list = calculate_sum_average(num_list)
 
 print(f"The sum of the numbers in the list is: {sum_of_list}")
 print(f"The average of the numbers in the list is: {average_of_list:.2f}")
+

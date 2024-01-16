@@ -19,3 +19,4 @@ if longest_word:
     print("Length of the longest word:", length_of_longest_word)
 else:
     print("No words entered.")
+

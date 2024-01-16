@@ -24,3 +24,4 @@ if result != -1:
     print(f"Element {element_to_find} found at index {result}.")
 else:
     print(f"Element {element_to_find} not found in the list.")
+

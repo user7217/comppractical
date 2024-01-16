@@ -8,3 +8,4 @@ user_input = input("Enter a string: ")
 
 # Call the function to print alternate words of length 5
 print_alternate_words_of_length(user_input, target_length=5)
+
