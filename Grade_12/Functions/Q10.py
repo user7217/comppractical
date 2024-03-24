@@ -1,16 +1,23 @@
 def check_password_validity(password):
-    return all([
-        any(char.islower() for char in password),
-        any(char.isupper() for char in password),
-        any(char.isdigit() for char in password),
-        any(char in '$#@' for char in password),
-        5 <= len(password) <= 15
-    ])
+    has_lower = False
+    has_upper = False
+    has_digit = False
+    has_special = False
 
-# Accept password from the user
+    for char in password:
+        if char.islower():
+            has_lower = True
+        elif char.isupper():
+            has_upper = True
+        elif char.isdigit():
+            has_digit = True
+        elif char in '$#@':
+            has_special = True
+
+    return has_lower and has_upper and has_digit and has_special and 5 <= len(password) <= 15
+
 user_password = input("Enter your password: ")
 
-# Check validity and print the result
 if check_password_validity(user_password):
     print("Password is Valid")
 else:
