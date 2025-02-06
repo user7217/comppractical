@@ -30,7 +30,8 @@ def PEEK(STK):
 def menu():
     L = []
     while True:
-        print("\nMENU:")
+        print("\nStack Menu:")
+        print("===========")
         print("1. Push into Stack")
         print("2. Pop from Stack")
         print("3. Show Stack")
